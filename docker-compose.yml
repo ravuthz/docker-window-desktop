@@ -4,6 +4,8 @@ services:
     container_name: docker-windows-11
     environment:
       VERSION: "11"
+      RAM_SIZE: "2G"
+      CPU_CORES: "1"
     devices:
       - /dev/kvm
     cap_add:
