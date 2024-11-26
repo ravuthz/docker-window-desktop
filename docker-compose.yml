@@ -1,9 +1,9 @@
 services:
   windows:
     image: dockurr/windows
-    container_name: docker-windows-7
+    container_name: docker-windows-xp
     environment:
-      VERSION: "7e"
+      VERSION: "xp"
       RAM_SIZE: "2G"
       CPU_CORES: "1"
     devices:
