@@ -1,7 +1,7 @@
 services:
   windows:
     image: dockurr/windows
-    container_name: windows
+    container_name: docker-windows-11
     environment:
       VERSION: "11"
     devices:
